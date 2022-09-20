@@ -1,0 +1,271 @@
+body {
+  background:
+  url("https://animestars.org/templates/New/images/bg.webp")
+  no-repeat;
+
+  width: 100%;
+  height: 100vh;
+
+  color: #fff;
+
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  padding: 0 32.5px;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  padding: 0 30px;
+  margin-bottom: 30px;
+
+  display: flex;
+  align-items: center;
+
+  background-image: linear-gradient(to bottom, #11212e 0%, rgba(17, 33, 46,0.4) 70px, #11212e 100%)
+}
+
+/* header logo */
+.logo {
+  width: 210px;
+  height: 60px;
+  margin-right: 50px;
+  padding: 9px 0;
+}
+
+.logo__title {
+  font-family: 'Nunito', sans-serif;
+  font-size: 19px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.logo__title__star {
+  text-shadow:
+  0 0 5px #fff,
+  0 0 5px #fff
+}
+
+.logo__subtitle {
+  font-size: 14px;
+  color: #CACBCE;
+}
+
+/* header search bar */
+.search {
+  width: 380px;
+  height: 40px;
+
+  background-color: #434A54;
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+
+  position: relative;
+}
+
+.search__bar {
+  background-color: inherit;
+  border: none;
+
+  width: 300px;
+  height: 40px;
+  padding: 0;
+  margin-left: 20px;
+  margin-right: 60px;
+  outline: 0;
+
+  color: #fff;
+  font-size: 17px;
+
+  font-weight: 500;
+}
+
+.search__btn {
+  background-color: inherit;
+  border: none;
+
+  position: absolute;
+  right: 14px;
+}
+
+.search__icon {
+  width: 18px;
+}
+
+
+/* header collection */
+.collection {
+  width: 300px;
+  margin-right: 50px;
+  padding-left: 95px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.collection__icon {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #7C7C83;
+
+  display: flex;
+  align-items: center;
+}
+
+.collection__icon:hover {
+  background-color: #fff;
+
+  transition: .2s;
+}
+
+.collection__img {
+  margin: 0 auto;
+  width: 20px;
+  height: 20px;
+}
+
+.collection__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+
+  border-radius: 40px;
+  background-color: #494957;
+  padding: 8px 12px;
+
+  width: 147px;
+  height: 40px;
+}
+
+.collection__btn:hover {
+  background-color: #f06102;
+  transition: .2s;
+}
+
+.collection__btn__icon {
+  width: 15px;
+  margin-right: 5px;
+}
+
+.collection__btn__word {
+  font-size: 17px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+}
+
+/* theme */
+.theme {
+  width: 81px;
+  height: 40px;
+  background-color: #494957;
+  border-radius: 40px;
+
+  list-style: none;
+  padding: 0;
+  margin: 0 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.theme__type {
+  border-radius: 50%;
+  width: 29px;
+  height: 29px;
+
+  display: flex;
+  align-items: center;
+}
+
+.theme__type:hover {
+  background-color: #39383D;
+
+  transition: .2s;
+}
+
+.theme__icon {
+  margin: 0 auto;
+  width: 18px;
+}
+
+.type__moon {
+  background-color: #9E294F;
+}
+
+.moon {
+  width: 18px;
+}
+
+/* office */
+.office {
+  width: 135px;
+  height: 40px;
+  padding: 0 20px;
+  background-color: #494957;
+  display: flex;
+  align-items: center;
+  border-radius: 40px;
+
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+}
+
+.office:hover {
+  background-color: #f06102;
+  transition: .2s;
+}
+
+.office__space {
+  padding-right: 5px;
+}
+/* end of header */
+
+
+/* main body */
+
+.content {
+  width: 100%;
+}
+
+/* content__left */
+.content__left {
+  background:
+  url("https://animestars.org/templates/New/images/bg_w.jpg")
+  center top no-repeat;
+  background-color: #11212e;
+  width: 240px;
+
+  padding: 10px 30px;
+}
+
+.content__blur {
+  width: 100%;
+  
+  background-color: #11212e;
+  opacity: 20%;
+}
+
+.content__list {
+  list-style: none;
+  padding: 0;
+}
+
+.content__items {
+  border-bottom: 1px solid #2F3940;
+}
