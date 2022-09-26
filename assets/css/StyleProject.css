@@ -238,34 +238,29 @@ header {
 
 
 /* main body */
-
-.content {
+main {
   width: 100%;
+  display: flex;
 }
 
 /* content__left */
 .content__left {
+  width: 100%;
+  max-width: 240px;
+  height: 100%:
+}
+
+.content__left__img {
   background:
   url("https://animestars.org/templates/New/images/bg_w.jpg")
   center top no-repeat;
+}
+
+.content__left__img__blur {
   background-color: #11212e;
-  width: 240px;
-
-  padding: 10px 30px;
+  opacity: 50%;
 }
 
-.content__blur {
-  width: 100%;
-  
-  background-color: #11212e;
-  opacity: 20%;
-}
-
-.content__list {
-  list-style: none;
-  padding: 0;
-}
-
-.content__items {
-  border-bottom: 1px solid #2F3940;
+.content__navBlock {
+    padding: 10px 30px;
 }
